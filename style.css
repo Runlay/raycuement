@@ -8,8 +8,9 @@ body {
 }
 
 .s1 {
-  background-image: url("./img/DSC_4029copy.jpg");
+  background-image: url("./img/DSC_4029.jpg");
   background-size: cover;
+  
 }
 .video {
     position: absolute;
@@ -32,28 +33,32 @@ body {
 .s2 {
   background: linear-gradient(to left top, rgb(189, 193, 199), white);
 }
+.s3 {
+  background: linear-gradient(to left top, rgb(57, 63, 71), black);
+}
 .s2 h1 {
-    font-size: 48px;
-    position: absolute;
-    top: 20%;
-    transform: translate(-50%, -20%);
-   background: linear-gradient(to left, #87c7df, #648896);
+  font-size: 48px;
+  position: absolute;
+  top: 20%;
+  transform: translate(-50%, -20%);
+  background: linear-gradient(to left, #87c7df, #648896);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .chair {
-  height: 40%;
+  height: 60%;
   position: absolute;
-  top: 60%;
-  left: 60%;
+  top: 65%;
+  left: 35%;
+  padding-top: 5%;
   transform: translate(-30%, -70%);
 }
 
 .description {
-  margin-top: 30%;
+  margin-top: 20%;
   width: 40%;
-  margin-left: 5%;
+  margin-left: 10%;
   font-size: 20px;
 }
 .description p {
@@ -62,26 +67,32 @@ body {
 
 .shows {
 text-align: center;
-
 }
-.shows h3{
+.shows h{
     padding-top: 2%;
+}
+.shows h3:hover{
+    color: white;
+    padding-right: 80px;
+    
 }
 
 .player {
     position: absolute;
-    left: 20%;
-    top: 30%;
+    left: 70%;
+    top: 40%;
 /*    padding-bottom: 5%;*/
 /*    transform: translate(-20%, -20%);*/
 }
 .soundcloud {
-    display: none;
+  position: absolute;
+  left: 60%;
+  top: 50%;
 }
 
 @media screen and (orientation: portrait) {
   .chair { display: none; }
     .player { display: none;}
     .description { font-size: 14px;margin-top: 50%;width: 80%;}
-/*    .soundcloud { display: block;top: 100%;transform: translate(30%, -70%);}*/
+    .soundcloud { display: none;}
 }
