@@ -39,7 +39,7 @@ body {
 .s2 h1 {
   font-size: 48px;
   position: absolute;
-  top: 20%;
+  top: 10%;
   transform: translate(-50%, -20%);
   background: linear-gradient(to left, #87c7df, #648896);
   -webkit-background-clip: text;
