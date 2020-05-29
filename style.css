@@ -90,14 +90,14 @@ text-align: center;
   top: 50%;
 }
 
-@media screen and (orientation: portrait) {
+@media screen and (orientation: portrait) and (max-width:1024px) {
   .chair { height: 60%;
     position: absolute;
     top: 25%;
     left: 0%;
     padding-top: 5%;
   transform: translate(0,0); }
-    .player { display: none;}
+    .player { height: 100px; left: 5%; top:70%;}
     .description { font-size: 14px;margin-top: 50%;width: 80%;}
     .soundcloud { display: none;}
 }
