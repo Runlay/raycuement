@@ -2,7 +2,7 @@ TweenMax.defaultEase = Linear.easeOut;
 
 new fullpage("#fullpage", {
   //options here
-  autoScrolling: false,
+  autoScrolling: true,
   navigation: true,
   onLeave: (origin, destination, direction) => {
     const section = destination.item;
